@@ -1,0 +1,90 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the game title */
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Styling for the game board */
+#game-board {
+    max-width: 700px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* Creates a grid with 7 equal columns */
+    grid-gap: 5px;
+}
+
+/* Styling for each cell in the game board */
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #007BFF;
+    border: 2px solid #003399;
+    border-radius: 50%; /* Makes the cells circular */
+    cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
+}
+
+/* Additional classes for red and yellow discs */
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+/* Styling for game information section */
+#game-info {
+    margin: 20px auto;
+}
+
+/* Styling for the player turn indicator */
+#player-turn {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Styling for the game message display */
+#game-message {
+    color: #D8000C;
+    font-size: 1.5em;
+}
+
+/* Styling for the reset button */
+#reset-button {
+    background-color: #009CDE;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+#reset-button:hover {
+    background-color: #007BFF;
+}
+
+/* Ensure the game is responsive */
+@media (max-width: 768px) {
+    .cell {
+        width: 50px;
+        height: 50px;
+    }
+    #game-board {
+        grid-gap: 3px;
+    }
+    #reset-button {
+        padding: 5px 10px;
+        font-size: 0.8em;
+    }
+}
