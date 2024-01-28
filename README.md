@@ -50,14 +50,4 @@ After launching the game, we will:
 - Make improvements and fix any emerging issues.
 - Consider adding more features based on player requests.
 
-## Contributing
-If you're interested in contributing to this project:
-- Fork the repository to make your own copy.
-- Create a new branch for your feature or bugfix.
-- Submit a pull request with your changes for review.
-
-For substantial changes, please open an issue first to discuss what you would like to change. This helps us collaborate and accept contributions more efficiently.
-
-## License
-This project is open-source and
 
